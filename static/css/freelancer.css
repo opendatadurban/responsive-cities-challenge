@@ -526,3 +526,8 @@ li{
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary{
+    background-color: #9CB259;
+}
+
