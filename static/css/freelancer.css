@@ -6,7 +6,11 @@
 
 body {
     overflow-x: hidden;
+<<<<<<< HEAD
     color: #363435
+=======
+    color: #555555
+>>>>>>> refs/remotes/origin/master
 }
 
 p {
@@ -23,7 +27,11 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
+<<<<<<< HEAD
     color: #259A60;
+=======
+    color: #FF8E20;
+>>>>>>> refs/remotes/origin/master
 }
 
 h1,
@@ -37,8 +45,13 @@ h6 {
     font-weight: 700;
 }
 
+<<<<<<< HEAD
 hr.trophy-light,
 hr.trophy-primary {
+=======
+hr.star-light,
+hr.star-primary {
+>>>>>>> refs/remotes/origin/master
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -47,9 +60,15 @@ hr.trophy-primary {
     text-align: center;
 }
 
+<<<<<<< HEAD
 hr.trophy-light:after,
 hr.trophy-primary:after {
     content: "\f091";
+=======
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f0ac";
+>>>>>>> refs/remotes/origin/master
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -58,6 +77,7 @@ hr.trophy-primary:after {
     font-size: 2em;
 }
 
+<<<<<<< HEAD
 hr.trophy-light {
     border-color: #97989A;
 }
@@ -73,6 +93,23 @@ hr.trophy-primary {
 
 hr.trophy-primary:after {
     color: #363435;
+=======
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #555555;
+}
+
+hr.star-primary {
+    border-color: #555555;
+}
+
+hr.star-primary:after {
+    color: #555555;
+>>>>>>> refs/remotes/origin/master
     background-color: #fff;
 }
 
@@ -82,6 +119,7 @@ hr.trophy-primary:after {
 
 header {
     text-align: center;
+<<<<<<< HEAD
     color: #363435;
     background: #FFFFFF;
 }
@@ -89,6 +127,15 @@ header {
 header.container {
     padding-top: 10px;
     padding-bottom: 5px;
+=======
+    color: #fff;
+    background: #555555;
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+>>>>>>> refs/remotes/origin/master
 }
 
 header img {
@@ -111,8 +158,13 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
+<<<<<<< HEAD
         padding-top: 100px;
         padding-bottom: 5px;
+=======
+        padding-top: 200px;
+        padding-bottom: 100px;
+>>>>>>> refs/remotes/origin/master
     }
 
     header .intro-text .name {
@@ -126,18 +178,30 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
+<<<<<<< HEAD
         padding: 10px 0;
+=======
+        padding: 25px 0;
+>>>>>>> refs/remotes/origin/master
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
     .navbar-fixed-top .navbar-brand {
+<<<<<<< HEAD
         font-size: 1em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
         color: #363435;
+=======
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+        color: #FF8E20;
+>>>>>>> refs/remotes/origin/master
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -145,7 +209,11 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
+<<<<<<< HEAD
         font-size: 1em;
+=======
+        font-size: 1.5em;
+>>>>>>> refs/remotes/origin/master
     }
 }
 
@@ -189,8 +257,13 @@ section h2 {
 }
 
 section.success {
+<<<<<<< HEAD
     color: #363435;
     background: #fff;
+=======
+    color: #fff;
+    background: #555555;
+>>>>>>> refs/remotes/origin/master
 }
 
 section.success a,
@@ -199,7 +272,11 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
+<<<<<<< HEAD
     color: #259A60;
+=======
+    color: #555555;
+>>>>>>> refs/remotes/origin/master
 }
 
 @media(max-width:767px) {
@@ -220,8 +297,13 @@ section.success a.active {
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
+<<<<<<< HEAD
     margin: 15px auto;
     max-width: 50px;
+=======
+    margin: 0 auto;
+    max-width: 400px;
+>>>>>>> refs/remotes/origin/master
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -263,18 +345,30 @@ section.success a.active {
     z-index: 2;
 }
 
+<<<<<<< HEAD
 @media(min-width:768px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
         padding: 5px 0px;
+=======
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+>>>>>>> refs/remotes/origin/master
     }
 }
 
 .btn-outline {
     margin-top: 15px;
+<<<<<<< HEAD
     border: solid 2px #363435;
     font-size: 20px;
     color: #363435;
+=======
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+>>>>>>> refs/remotes/origin/master
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -283,8 +377,13 @@ section.success a.active {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
+<<<<<<< HEAD
     border: solid 2px #259A60;
     color: #259A60;
+=======
+    border: solid 2px #fff;
+    color: #FF8E20;
+>>>>>>> refs/remotes/origin/master
     background: #fff;
 }
 
@@ -345,7 +444,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
+<<<<<<< HEAD
     color: #363435;
+=======
+    color: #fff;
+>>>>>>> refs/remotes/origin/master
 }
 
 footer h3 {
@@ -354,7 +457,11 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
+<<<<<<< HEAD
     background-color: #E4F2EB;
+=======
+    background-color: #555555;
+>>>>>>> refs/remotes/origin/master
 }
 
 footer .footer-col {
@@ -363,14 +470,22 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
+<<<<<<< HEAD
     background-color: #97989a;
+=======
+    background-color: #555555;
+>>>>>>> refs/remotes/origin/master
 }
 
 .btn-social {
     display: inline-block;
     width: 50px;
     height: 50px;
+<<<<<<< HEAD
     border: 2px solid #363435;
+=======
+    border: 2px solid #fff;
+>>>>>>> refs/remotes/origin/master
     border-radius: 100%;
     text-align: center;
     font-size: 20px;
@@ -447,7 +562,11 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
+<<<<<<< HEAD
     background-color: #FFFFFF;
+=======
+    background-color: #555555;
+>>>>>>> refs/remotes/origin/master
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -457,7 +576,11 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
+<<<<<<< HEAD
     background-color: #FFFFFF;
+=======
+    background-color: #555555;
+>>>>>>> refs/remotes/origin/master
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -468,6 +591,7 @@ footer .footer-below {
     opacity: 0;
 }
 
+<<<<<<< HEAD
 .navbar-default .navbar-brand{
     color: #363435;
 }
@@ -475,10 +599,16 @@ footer .footer-below {
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
     color: #97989a;
+=======
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #9CB259;
+>>>>>>> refs/remotes/origin/master
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+<<<<<<< HEAD
     color: #97989a;
     background-color: transparent;
 }
@@ -494,6 +624,23 @@ footer .footer-below {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
     background-color: #363435;
+=======
+    color: #9CB259;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #FF8E20;
+}
+
+.navbar-default {
+    background-color: #555555;
+    border-color: #555555;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #9CB259;
+    background-color: #1a242f;
+>>>>>>> refs/remotes/origin/master
 }
 
 li{
@@ -503,22 +650,38 @@ li{
 
 .col-lg-8 {
     /*margin-top: 40px;*/
+<<<<<<< HEAD
     color: #FFFFFF;
+=======
+    color: #555555;
+>>>>>>> refs/remotes/origin/master
   }
 
 .col-lg-12 {
     margin-top: 0px;
+<<<<<<< HEAD
     /*color: #FFFFFF;*/
+=======
+    /*color: #555555;*/
+>>>>>>> refs/remotes/origin/master
   }
 
 .col-lg-4 {
     margin-top: 40px;
+<<<<<<< HEAD
     /*color: #FFFFFF;*/
+=======
+    /*color: #555555;*/
+>>>>>>> refs/remotes/origin/master
     width: 100%;
   }
 
 .footer-below{
+<<<<<<< HEAD
     color: #FFFFFF;
+=======
+    color: #555555;
+>>>>>>> refs/remotes/origin/master
 }
 
 .charts-combobox {text-align: left;
@@ -533,6 +696,7 @@ li{
 }
 
 .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary{
+<<<<<<< HEAD
     background-color: #1CA55E;
 }
 
@@ -580,3 +744,8 @@ li{
     /* inline-block space fix */
     margin-right:-4px;
 }
+=======
+    background-color: #9CB259;
+}
+
+>>>>>>> refs/remotes/origin/master
