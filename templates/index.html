@@ -45,7 +45,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li class="page-scroll">
-                    <a href="#meetups">Meetups</a>
+                    <a href="#cities">Cities</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#awards">Awards</a>
@@ -73,39 +73,43 @@
 <!-- Home Section-->
 <section class="success" id="home">
         <div class="container">
-            <img class="img-responsive img-centered" src="/static/img/RCC Draft Logo_4b[1].jpeg" alt="Logo" align="middle">
+            <div class="row">
+                <div class="col-lg-4 text-" style="text-align: center">
+                    <img class="img-responsive img-centered" src="/static/img/RCC Draft Logo_4b[1].jpeg" alt="Logo" align="middle">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <hr class="trophy-primary">
+                        </div>
+                    </div>
+                    <p>The <a href="http://www.ogp.gov.za/" target="_blank">Open Government Partnership South Africa (OGP
+                        SA)</a>, <a href="http://theodi.org/" target="_blank">Open Data Institute (ODI)</a> and a number of
+                        local partners are running an open data challenge on the theme of Responsive Cities. The specific
+                        challenge questions for each city are described in the tabs below and you can <a
+                                href="#enter" class="page-scroll"> ENTER</a> your proposal by 21 October 2016.</p>
+                    <p>The aim of the Responsive Cities challenge is to encourage developers, designers, researchers and
+                        entrepreneurs to use available open data from various cities across South Africa to develop
+                        applications, stories and visualisations that can help residents work better with local
+                        government.</p>
+                    <p>Between September and November 2016, participants will have a chance to work with city representatives,
+                        technical mentors, other teams and ODI specialists to build out their value proposition and workable
+                        prototypes. Winners will receive cash awards, incubation and/or seed funding up to R300,000 to
+                        develop their solutions further.</p>
+                    <br>
+                    <img class="img-responsive img-centered" src="/static/img/RCC-ImplementPartners-v4-merged.png" alt="Logo" align="middle">
+                </div>
+            </div>
         </div>
-        <div class="container">
+</section>
+
+<!-- Cities Section -->
+<section class="success" id="cities">
+    <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>OGPSA ODI Responsive Cities Challenge</h2>
+                <h2>Cities</h2>
                 <hr class="trophy-primary">
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-4 text-" style="text-align: justify">
-                <p>The <a href="http://www.ogp.gov.za/" target="_blank">Open Government Partnership South Africa (OGP
-                    SA)</a>, <a href="http://theodi.org/" target="_blank">Open Data Institute (ODI)</a> and a number of
-                    local partners are running an open data challenge on the theme of Responsive Cities. The specific
-                    challenge questions for each city are described in the tabs below and you can enter your proposal <a
-                            href="#enter" class="page-scroll"> ENTER</a> by 5 October 2016.</p>
-                <p>The aim of the Responsive Cities challenge is to encourage developers, designers, researchers and
-                    entrepreneurs to use available open data from various cities across South Africa to develop
-                    applications, stories and visualisations that can help residents work better with local
-                    government.</p>
-                <p>During September and October 2016, participants will have a chance to work with city representatives,
-                    technical mentors, other teams and ODI specialists to build out their value proposition and workable
-                    prototypes. Winners will receive cash awards, incubation and/or seed funding up to R300,000 to
-                    develop their solutions further.</p>
-                <img class="img-responsive img-centered" src="/static/img/RCC-ImplementPartners-v4-merged.png" alt="Logo" align="middle">
-                <br>
-                <br>
-            </div>
-        </div>
-        <div class="container">
-
-        </div>
-
         <div class="panel with-nav-pills panel-default">
             <div class="panel-heading">
                 <ul class="nav nav-pills">
@@ -116,13 +120,11 @@
                     <li class="dropdown">
                         <a href="#" data-toggle="dropdown">Select <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#tab2default" data-toggle="pill">Ekurhuleni</a></li>
-                            <li><a href="#tab3default" data-toggle="pill">Ethekwini</a></li>
-                            <li><a href="#tab4default" data-toggle="pill">Cape Town</a></li>
-                            <li><a href="#tab5default" data-toggle="pill">Tshwane</a></li>
-                            <li><a href="#tab6default" data-toggle="pill">Sol Plaatje</a></li>
-                            <li><a href="#tab7default" data-toggle="pill">Joburg</a></li>
-                            <li><a href="#tab8default" data-toggle="pill">Polokwane</a></li>
+                            <li><a href="#Ekurhuleni" data-toggle="pill">Ekurhuleni</a></li>
+                            <li><a href="#Ethekwini" data-toggle="pill">Ethekwini</a></li>
+                            <li><a href="#CapeTown" data-toggle="pill">Cape Town</a></li>
+                            <li><a href="#Tshwane" data-toggle="pill">Tshwane</a></li>
+                            <li><a href="#SolPlaatje" data-toggle="pill">Sol Plaatje</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -133,236 +135,71 @@
                         <p>Partners in the cities have prioritised specific research questions and data sets that
                             challenge participants can work with. Select your home city tab and get started.</p>
                     </div>
-                    <div class="tab-pane fade" id="tab2default">
-                        <p>Welcome to Ekurhuleni. The flagship question we want to solve is: [Question]</p>
-                        <p>We will be hosting a challenge meetup on [City meetup date], please register <a href=""
-                                                                                                           target="_blank">City
-                            meetup</a> before [City meetup RSVP date] to attend.</p>
-                        <p>You are welcome to propose concepts related to other critical issues in the city. A full list
-                            of the city’s data sets can be accessed via <a href="" target="_blank">City Data Sets</a>.
-                        </p>
-                        <p>To participate in the challenge process <a href="#enter" class="page-scroll"> ENTER</a> your
-                            proposal outlining how you plan to address the City questions before 5 October 2016.</p>
+                    <div class="tab-pane fade" id="Ekurhuleni">
+                        <p>Welcome to Ekurhuleni. The flagship question we want to solve is: <b>[Question]?</b> </p>
+                        <p>You can download a more detailed challenge brief [RCC2016-ChallengeBrief-Ekurhuleni-v1.pdf].</p>
+                        <p>Geekulcha and Ekurhuleni Metropolitan Municipality will be hosting EMMHack from Fri 30 Sept to Sun 2 Oct 2016, please register <a href="http://emmhack.co.za" target="_blank">here</a> to attend.</p>
                     </div>
-                    <div class="tab-pane fade" id="tab3default">
-                        <p>Welcome to Ethekwini. The flagship question we want to solve is: [Question]</p>
-                        <p>We will be hosting a challenge meetup on [City meetup date], please register <a href=""
-                                                                                                           target="_blank">City
-                            meetup</a> before [City meetup RSVP date] to attend.</p>
-                        <p>You are welcome to propose concepts related to other critical issues in the city. A full list
-                            of the city’s data sets can be accessed via <a href="" target="_blank">City Data Sets</a>.
-                        </p>
-                        <p>To participate in the challenge process <a href="#enter" class="page-scroll"> ENTER</a> your
-                            proposal outlining how you plan to address the City questions before 5 October 2016.</p>
+                    <div class="tab-pane fade" id="Ethekwini">
+                        <p>Welcome to Ethekwini. The flagship question we want to solve is: <b>[Question]?</b> </p>
+                        <p>You can download a more detailed challenge brief [RCC2016-ChallengeBrief-Ethekwini-v1.pdf]</p>
+                        <p>Open Data Durban and the City of Ethekwini will be hosting a challenge meetup on Thurs 6 Oct 2016, event registration link to follow shortly.</p>
                     </div>
-                    <div class="tab-pane fade" id="tab4default">
-                        <p>Welcome to Cape Town. The flagship question we want to solve is: [Question]</p>
-                        <p>We will be hosting a challenge meetup on [City meetup date], please register <a href=""
-                                                                                                           target="_blank">City
-                            meetup</a> before [City meetup RSVP date] to attend.</p>
-                        <p>You are welcome to propose concepts related to other critical issues in the city. A full list
-                            of the city’s data sets can be accessed via <a href="" target="_blank">City Data Sets</a>.
-                        </p>
-                        <p>To participate in the challenge process <a href="#enter" class="page-scroll"> ENTER</a> your
-                            proposal outlining how you plan to address the City questions before 5 October 2016.</p>
+                    <div class="tab-pane fade" id="CapeTown">
+                        <p>Welcome to Cape Town. The flagship question we want to solve is: <b>[Question]?</b> </p>
+                        <p>You can download a more detailed challenge brief [RCC2016-ChallengeBrief-CapeTown-v1.pdf].</p>
+                        <p>Code for South Africa and the City of Cape Town will be hosting a meetup on [date], event registration link to follow shortly.</p>
                     </div>
-                    <div class="tab-pane fade" id="tab5default">
-                        <p>Welcome to Tshwane. The flagship question we want to solve is: [Question]</p>
-                        <p>We will be hosting a challenge meetup on [City meetup date], please register <a href=""
-                                                                                                           target="_blank">City
-                            meetup</a> before [City meetup RSVP date] to attend.</p>
-                        <p>You are welcome to propose concepts related to other critical issues in the city. A full list
-                            of the city’s data sets can be accessed via <a href="" target="_blank">City Data Sets</a>.
-                        </p>
-                        <p>To participate in the challenge process <a href="#enter" class="page-scroll"> ENTER</a> your
-                            proposal outlining how you plan to address the City questions before 5 October 2016.</p>
+                    <div class="tab-pane fade" id="Tshwane">
+                        <p>Welcome to Tshwane. The flagship question we want to solve is: <b> How do we reduce cable theft in Tshwane?</b></p>
+                        <p>You can download a more detailed challenge brief [RCC2016-ChallengeBrief-Ethekwini-v1.pdf]</p>
+                        <p>The Innovation Hub and the City of Tshwane will be hosting a challenge meetup on Thurs 6 Oct 2016, event registration link to follow shortly.</p>
                     </div>
-                    <div class="tab-pane fade" id="tab6default">
-                        <p>Welcome to Sol Plaatje. The flagship question we want to solve is: [Question]</p>
-                        <p>We will be hosting a challenge meetup on [City meetup date], please register <a href=""
-                                                                                                           target="_blank">City
-                            meetup</a> before [City meetup RSVP date] to attend.</p>
-                        <p>You are welcome to propose concepts related to other critical issues in the city. A full list
-                            of the city’s data sets can be accessed via <a href="" target="_blank">City Data Sets</a>.
-                        </p>
-                        <p>To participate in the challenge process <a href="#enter" class="page-scroll"> ENTER</a> your
-                            proposal outlining how you plan to address the City questions before 5 October 2016.</p>
-                    </div>
-                    <div class="tab-pane fade" id="tab7default">
-                        <p>Welcome to Joburg. The flagship question we want to solve is: [Question]</p>
-                        <p>We will be hosting a challenge meetup on [City meetup date], please register <a href=""
-                                                                                                           target="_blank">City
-                            meetup</a> before [City meetup RSVP date] to attend.</p>
-                        <p>You are welcome to propose concepts related to other critical issues in the city. A full list
-                            of the city’s data sets can be accessed via <a href="" target="_blank">City Data Sets</a>.
-                        </p>
-                        <p>To participate in the challenge process <a href="#enter" class="page-scroll"> ENTER</a> your
-                            proposal outlining how you plan to address the City questions before 5 October 2016.</p>
-                    </div>
-                    <div class="tab-pane fade" id="tab8default">
-                        <p>Welcome to Polokwane. The flagship question we want to solve is: [Question]</p>
-                        <p>We will be hosting a challenge meetup on [City meetup date], please register <a href=""
-                                                                                                           target="_blank">City
-                            meetup</a> before [City meetup RSVP date] to attend.</p>
-                        <p>You are welcome to propose concepts related to other critical issues in the city. A full list
-                            of the city’s data sets can be accessed via <a href="" target="_blank">City Data Sets</a>.
-                        </p>
-                        <p>To participate in the challenge process <a href="#enter" class="page-scroll"> ENTER</a> your
-                            proposal outlining how you plan to address the City questions before 5 October 2016.</p>
+                    <div class="tab-pane fade" id="SolPlaatje">
+                        <p>Welcome to the Northern Cape and the municipalities of Sol Plaatje & Dawid Kruiper. The flagship question we want to solve is: <b>How can we improve water management in Sol Plaatje and Dawid Kruiper Municipalities?</b></p>
+                        <p>You can download a more detailed challenge brief [RCC2016-ChallengeBrief-NC-v1.pdf].</p>
+                        <p>Geekulcha and the Northern Cape Department of Economic Development and Tourism will be hosting a hackathon from 16-18 Sept 2016, please register <a href="http://hackathon.ncdev.co.za" target="_blank">here</a> to attend.</p>
                     </div>
                 </div>
             </div>
         </div>
+        <br>
+        <br>
         <div class="row">
-            <div class="col-lg-4 text-" style="text-align: justify">
-                <p>If you’re interested in city open data and considering participating in the Responsive Cities
-                    challenge these local and international examples may inspire you:</p>
-                {#
-                <ul style="font-size: 19px">#}
-                    {#
-                    <li class="col-lg-4 text-">Medicine pricing: <a href="https://mpr.code4sa.org">https://mpr.code4sa.org</a>
-                    </li>
-                    #}
-                    {#
-                    <li class="col-lg-4 text-">Informal settlement map: <a href=" http://ismaps.org.za/desktop.html">
-                        http://ismaps.org.za/desktop.html</a></li>
-                    #}
-                    {#
-                    <li class="col-lg-4 text-">Wazimap: <a href="https://wazimap.co.za">https://wazimap.co.za</a></li>
-                    #}
-                    {#
-                    <li class="col-lg-4 text-">Mamelodi mappers: <a
-                            href="http://mamelodimappers.wixsite.com/alaska-fire-project">http://mamelodimappers.wixsite.com/alaska-fire-project</a>
-                    </li>
-                    #}
-                    {#
-                    <li class="col-lg-4 text-">GoMetro: <a href="http://gometroapp.com/?transit+index">http://gometroapp.com/?transit+index</a>
-                    </li>
-                    #}
-                    {#
-                    <li class="col-lg-4 text-">Phikaya Smart Streets: <a
-                            href="http://opendatachallenges.org/get-to-know-the-jobs-open-data-challenge-finalists-pikhaya-smart-streets/">http://opendatachallenges.org/get-to-know-the-jobs-open-data-challenge-finalists-pikhaya-smart-streets/</a>
-                    </li>
-                    #}
-                    {#
-                    <li class="col-lg-4 text-">MoveMaker: <a
-                            href="http://movemakerapp.co.uk">http://movemakerapp.co.uk</a></li>
-                    #}
-                    {#
-                    <li class="col-lg-4 text-">Bus Start: <a
-                            href="http://opendatachallenges.org/get-to-know-the-jobs-open-data-challenge-finalists-bus-start/">http://opendatachallenges.org/get-to-know-the-jobs-open-data-challenge-finalists-bus-start/</a>
-                    </li>
-                    #}
-                    {#
-                </ul>
-                #}
-
-                <div class="row row-centered">
-                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
-                        <a href="https://mpr.code4sa.org" target="_blank" class="portfolio-link" data-toggle="modal">Medicine Price Registry
-                            <img src="/static/img/MPR.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
-                        <a href="http://ismaps.org.za/desktop.html" target="_blank" class="portfolio-link"
-                           data-toggle="modal">ISMaps
-                            <img src="/static/img/ISMAPS.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
-                        <a href="https://wazimap.co.za" target="_blank" class="portfolio-link" data-toggle="modal">Wazimap
-                            <img src="/static/img/WAZIMAP.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
-                        <a href="http://mamelodimappers.wixsite.com/alaska-fire-project" target="_blank"
-                           class="portfolio-link" data-toggle="modal">Mamelodi Mappers
-                            <img src="/static/img/MAMELODI.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
-                        <a href="http://gometroapp.com/?transit+index" target="_blank" class="portfolio-link"
-                           data-toggle="modal">GoMetro
-                            <img src="/static/img/GOMETRO.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
-                        <a href="http://opendatachallenges.org/get-to-know-the-jobs-open-data-challenge-finalists-pikhaya-smart-streets/"
-                           target="_blank" class="portfolio-link" data-toggle="modal">Pikhaya
-                            <img src="/static/img/PIKHAYA.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
-                        <a href="http://movemakerapp.co.uk" target="_blank" class="portfolio-link" data-toggle="modal">MoveMaker
-                            <img src="/static/img/MOVEMAKER.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
-                        <a href="http://opendatachallenges.org/get-to-know-the-jobs-open-data-challenge-finalists-bus-start/"
-                           target="_blank" class="portfolio-link" data-toggle="modal">Bus Start
-                            <img src="/static/img/BUSSTART.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                </div>
-
-            </div>
+        <div class="col-lg-12 text-center">
+            <h2>Process</h2>
+            <hr class="trophy-primary">
         </div>
     </div>
-    </div>
-</section>
-
-<!-- Process Section -->
-<section class="success" id="process">
-    <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Process</h2>
-                <hr class="trophy-primary">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 portfolio-item" style="text-align: center; padding: 5px">
+            <div class="col-xs-12 col-sm-12 portfolio-item" style="text-align: center; padding: 5px">
                 <i class="fa fa-rocket fa-3x" aria-hidden="true" style="text-align: center"></i>
-                <h5 style="font-style: italic">1. Launch and applications open | 7 Sept 2016</h5>
-                    <p style="font-size: 16px">The challenge launched on 7 September 2016 and interested designers, developers, researchers and entrepreneurs can submit proposals until the closing date on 5 October 2016.</p>
+                <h5 style="font-style: italic">1. Launch and applications open | 16 Sept 2016</h5>
+                    <p style="font-size: 16px">The challenge launched on 16 September 2016 and interested designers, developers, researchers and entrepreneurs can submit proposals until the closing date on 21 October 2016.</p>
             </div>
-            <div class="col-xs-12 col-sm-6 portfolio-item" style="text-align: center; padding: 5px">
+            <div class="col-xs-12 col-sm-12 portfolio-item" style="text-align: center; padding: 5px">
                 <i class="fa fa-users fa-3x" aria-hidden="true" style="text-align: center"></i>
                 <h5 style="font-style: italic">2. Responsive Cities meetups | Sept-Oct 2016</h5>
-                    <p style="font-size: 16px">Each participating City will be hosting <a href="#meetups">MEETUPS</a> which will provide an
+                    <p style="font-size: 16px">Each participating City will be hosting <a href="#cities">meetup</a> which will provide an
                     opportunity for potential participants and people with ideas to hear more about the specific
                     research questions for that City, get to know the data sets that are available, and to build
                     teams and develop their ideas with other participants.</p>
             </div>
-            <div class="col-xs-12 col-sm-6 portfolio-item" style="text-align: center; padding: 5px">
+            <div class="col-xs-12 col-sm-12 portfolio-item" style="text-align: center; padding: 5px">
                 <i class="fa fa-flag-checkered fa-3x" aria-hidden="true" style="text-align: center"></i>
-                <h5 style="font-style: italic">3. Challenge close | 7 Oct 2016</h5>
+                <h5 style="font-style: italic">3. Challenge close | 21 Oct 2016</h5>
                     <p style="font-size: 16px">The deadline for submitting your initial concept for the Challenge is
-                    12pm on 7 October.</p>
+                    12pm on 21 October.</p>
             </div>
-            <div class="col-xs-12 col-sm-6 portfolio-item" style="text-align: center; padding: 5px">
-                <i class="fa fa-user fa-3x" aria-hidden="true" style="text-align: center"></i>
-                <h5 style="font-style: italic">4. Finalist selection | 14 Oct 2016</h5>
-                    <p style="font-size: 16px">All proposals submitted by this time will be considered. We will then
-                    notify individuals and teams whether their idea has been selected to come along to the
-                    co-creation workshops later in October.</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 portfolio-item" style="text-align: center; padding: 5px">
+            <div class="col-xs-12 col-sm-12 portfolio-item" style="text-align: center; padding: 5px">
                 <i class="fa fa-wrench fa-3x" aria-hidden="true" style="text-align: center"></i>
-                <h5 style="font-style: italic">5. Finalist Workshop | 24-28 Oct 2016</h5>
+                <h5 style="font-style: italic">4. Finalist Workshop | 24-28 Oct 2016</h5>
                 <p style="font-size: 16px">All finalists will be eligible to join any one of three 2-day finalist
                     workshops to be held at a host city in the following regions:
-                    <ul style="font-size: 16px">
-                        <li style="text-align: left">Eastern Region: Ethekwini | 24-25 Oct 2016</li>
-                        <li style="text-align: left">Northern Region: (TBC -- Tshwane/ Ekhurhuleni/ Joburg) | 27-28 Oct 2016</li>
-                        <li style="text-align: left">Southern and Western Region: Cape Town | 29-30 Oct 2016</li>
+                    <ul style="font-size: 16px" style="list-style: none;">
+                        <li style="list-style: none;">Eastern Region: Ethekwini | 7-8 Nov 2016</li>
+                        <li style="list-style: none;">Northern Region: Tshwane/Ekhurhuleni | 10-11 Nov 2016</li>
+                        <li style="list-style: none;">Southern and Western Region: Cape Town | 12-13 Nov 2016</li>
                     </ul>
                 </p>
                 <p style="font-size: 16px">The finalist workshop with the ODI team will be your your chance to
@@ -371,106 +208,12 @@
                 viable products (MVPs) would be great, but working examples that are able to process real data
                 and need a fair degree of refining are also eligible.</p>
             </div>
-            <div class="col-xs-12 col-sm-6 portfolio-item" style="text-align: center; padding: 5px">
-                <i class="fa fa-thumbs-up fa-3x" aria-hidden="true" style="text-align: center"></i>
-                <h5 style="font-style: italic">6. Winner selection | 4 Nov 2016</h5>
-                    <p style="font-size: 16px">The panel of judges in each city will review the scoring from pitches at
-                    finalist workshops to select 3 winners for each city, as well as an overall winner for the
-                    Responsive Cities Challenge.</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 portfolio-item" style="text-align: center; padding: 5px">
+            <div class="col-xs-12 col-sm-12 portfolio-item" style="text-align: center; padding: 5px">
                 <i class="fa fa-trophy fa-3x" aria-hidden="true" style="text-align: center"></i>
-                <h5 style="font-style: italic">7. Winner announcement and awards | 11 Nov 2016 onwards</h5>
-            <p style="font-size: 16px">One overall winner and 3 winners per city will be announced and will
-                start the process of accessing the <a href="#awards">AWARDS</a>.
-            </p>
+                <h5 style="font-style: italic">5. Winner announcement | 25 Nov 2016 onwards</h5>
+            <p style="font-size: 16px">One overall winner and 3 winners per city will be announced.</p>
             </div>
-        </div>
     </div>
-</section>
-
-<!-- Meetups Section -->
-
-<section class="success" id="meetups">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>MEETUPS</h2>
-                <hr class="trophy-primary">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 text-" style="text-align: center">
-                <p>Each participating City will be hosting Meetups which will provide an opportunity for potential
-                    participants and people with ideas to hear more about the specific research questions for that City,
-                    get to know the data sets that are available, and to build teams and develop their ideas with other
-                    participants.</p>
-                <br>
-                <br>
-            </div>
-        </div>
-        <div class="panel with-nav-pills panel-default">
-            <div class="panel-heading">
-                <ul class="nav nav-pills">
-                    <li class="active"><a href="#tab1meet" data-toggle="pill">Meetups</a></li>
-                    <li class="dropdown">
-                        <a href="#" data-toggle="dropdown">Select <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#tab2meet" data-toggle="pill">Ekurhuleni Meetup</a></li>
-                            <li><a href="#tab3meet" data-toggle="pill">Ethekwini Meetup</a></li>
-                            <li><a href="#tab4meet" data-toggle="pill">Cape Town Meetup</a></li>
-                            <li><a href="#tab5meet" data-toggle="pill">Tshwane Meetup</a></li>
-                            <li><a href="#tab6meet" data-toggle="pill">Sol Plaatje Meetup</a></li>
-                            <li><a href="#tab7meet" data-toggle="pill">Joburg Meetup</a></li>
-                            <li><a href="#tab8meet" data-toggle="pill">Polokwane Meetup</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="panel-body">
-                <div class="tab-content" style="text-align: justify; color: #555555">
-                    <div class="tab-pane fade in active" id="tab1meet">
-                        <p>Meetups are being run in Ekurhuleni, Ethekwini, Cape Town, Tshwane, Sol Plaatje, Joburg and Polokwane in September and October 2016. Find out Meetup details for your city by selecting it!</p>
-                    </div>
-                    <div class="tab-pane fade" id="tab2meet">
-                        <p><a href="" target="_blank">Ekurhuleni Meetup</a></p>
-                        <p>The Innovation Hub and Ekurhuleni Metropolitan Municipality will be hosting the [Ekurhuleni
-                            Meetup] taking place at 10am-3pm on 21 Sept 2016, [venue]. RSVP to attend before 16 Sept
-                            2016.</p>
-                    </div>
-                    <div class="tab-pane fade" id="tab3meet">
-                        <p><a href="" target="_blank">Ethekwini Meetup</a></p>
-                        <p>Open Data Durban and the City of Ethekwini will be hosting the [Ethekwini Meetup] taking
-                            place at 10am-3pm on 21 Sept 2016, [venue]. RSVP to attend before 16 Sept 2016.</p>
-                    </div>
-                    <div class="tab-pane fade" id="tab4meet">
-                        <p><a href="" target="_blank">Cape Town Meetup</a></p>
-                        <p>Code4SA and the City of Cape Town will be hosting the [Cape Town Meetup] taking place at
-                            10am-3pm on 21 Sept 2016, [venue]. RSVP to attend before 16 Sept 2016.</p>
-                    </div>
-                    <div class="tab-pane fade" id="tab5meet">
-                        <p><a href="" target="_blank">Tshwane Meetup</a></p>
-                        <p>The Innovation Hub and the City of Tshwane will be hosting the [Tshwane Meetup] taking place
-                            at 10am-3pm on 21 Sept 2016, [venue]. RSVP to attend before 16 Sept 2016.</p>
-                    </div>
-                    <div class="tab-pane fade" id="tab6meet">
-                        <p><a href="" target="_blank">Sol Plaatje Meetup</a></p>
-                        <p>Geekulcha and the Sol Plaatje Municipality will be hosting the [Sol Plaatje Meetup] taking
-                            place at 10am-3pm on 21 Sept 2016, [venue]. RSVP to attend before 16 Sept 2016.</p>
-                    </div>
-                    <div class="tab-pane fade" id="tab7meet">
-                        <p><a href="" target="_blank">Joburg Meetup</a></p>
-                        <p>The Innovation Hub and the City of Johannesburg will be hosting the [Joburg Meetup] taking
-                            place at 10am-3pm on 21 Sept 2016, [venue]. RSVP to attend before 16 Sept 2016.</p>
-                    </div>
-                    <div class="tab-pane fade" id="tab8meet">
-                        <p><a href="" target="_blank"">Polokwane Meetup</a></p>
-                        <p>Limpopo Connexion and the Polokwane Municipality will be hosting the [Polokwane Meetup]
-                            taking place at 10am-3pm on 21 Sept 2016, [venue]. RSVP to attend before 16 Sept 2016.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 <!-- Awards Section -->
@@ -513,7 +256,7 @@
         </div>
         <div class="row">
             <div class="col-lg-4 text-" style="text-align: left">
-                <p>To participate in the Responsive Cities Challenge complete the form below before 12pm on 7 October
+                <p>To participate in the Responsive Cities Challenge complete the form below before 12pm on 21 October
                     2016. All proposals submitted by this time will be considered. We will then notify individuals and
                     teams whether their idea has been selected to come along to the co-creation workshops later in
                     October.</p>
@@ -544,12 +287,22 @@
                     <p>Project Overview</p>
                     <label for="title">Project Title / Name:</label>
                     <input type="text" class="form-control" id="title" required name="title">
+                    <label for="impact">What city are you submitting for?</label>
+                    <select class="form-control" id="impact" name="impact">
+                        <option>Choose city...</option>
+                        <option>Ekurhuleni</option>
+                        <option>Tshwane</option>
+                        <option>Ethekwini</option>
+                        <option>Sol Plaatje & Dawid Kruiper</option>
+                        <option>Cape Town</option>
+                    </select>
                     <label for="desc">Describe Your Project Briefly:</label>
                     <textarea rows="6" class="form-control" id="desc" required name="desc"></textarea>
-                    <label for="prob">What is the main problem or opportunity you are addressing in the city?</label>
+                    <label for="prob">What is the main problem or opportunity you are addressing in the city? (MAX 200 words)</label>
                     <textarea rows="6" class="form-control" id="prob" required name="prob"></textarea>
                     <label for="impact">What area of the city or resident life are you impacting?</label>
                     <select class="form-control" id="impact" name="impact">
+                        <option>Choose area...</option>
                         <option>Transport</option>
                         <option>Water or energy</option>
                         <option>Social work and disabilities</option>
@@ -559,9 +312,11 @@
                         <option>Housing and settlements</option>
                         <option>Food and agriculture</option>
                         <option>Business, industry and economic development</option>
+                        <option>Other</option>
                     </select>
                     <label for="stage">Which option best describes your stage of development?</label>
                     <select class="form-control" id="stage" required name="stage">
+                        <option>Choose stage...</option>
                         <option>Concept / idea</option>
                         <option>Researching / investigating feasibility</option>
                         <option>Prototype</option>
@@ -573,17 +328,11 @@
                     <textarea rows="6" class="form-control" id="simil" required name="simil"></textarea>
                 </div>
                 <div class="form-group">
-                    <br>
-                    <p>Impact</p>
                     <label for="users">Who do you think will be the main users of your product or service?</label>
                     <textarea rows="6" class="form-control" id="users" required name="users"></textarea>
-                    <label for="eimpact">What is the anticipated social or economic impact from your product or
-                        service?</label>
-                    <textarea rows="6" class="form-control" id="eimpact" required name="eimpact"></textarea>
                 </div>
                 <div class="form-group">
                     <br>
-                    <p>Implementation and sustainability</p>
                     <p style="font-size: 15px"><b>What data or other resources do you need to get this project
                         implemented?</b></p>
                     <div class="input-group-vertical" data-toggle="buttons" id="resources">
@@ -600,10 +349,10 @@
                             <input type="checkbox" name="ba-needed"> Business Advice
                         </label>
                         <label class="btn btn-primary">
-                            <input type="checkbox" name="cut-needed"> Access to Cusomters
+                            <input type="checkbox" name="market-needed"> Marketing
                         </label>
                         <label class="btn btn-primary">
-                            <input type="checkbox" name="int-pr-needed"> Intellectual property protection
+                            <input type="checkbox" name="tech-needed"> Technical Assistance
                         </label>
                     </div>
                     <br>
@@ -617,12 +366,12 @@
                     <textarea rows="6" class="form-control" id="edu" required name="edu"></textarea>
                 </div>
                 <input hidden type="text" id="upload" name="upload">
-                <label class="btn btn-primary" for="my-file-selector">
-                    <input id="my-file-selector" type="file" style="display:none;"
-                           onchange="$('#upload-file-info').html($(this).val());document.getElementById('upload').value=$(this).val();">
-                    Upload a file or zipped folder
-                </label>
-                <span class='label label-info' id="upload-file-info"></span>
+                <!--<label class="btn btn-primary" for="my-file-selector">-->
+                    <!--<input id="my-file-selector" type="file" style="display:none;"-->
+                           <!--onchange="$('#upload-file-info').html($(this).val());document.getElementById('upload').value=$(this).val();">-->
+                    <!--Upload a file or zipped folder-->
+                <!--</label>-->
+                <!--<span class='label label-info' id="upload-file-info"></span>-->
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
         </div>
@@ -658,7 +407,7 @@
                 </ul>
             </div>
             <div class="panel-body">
-                <div class="tab-content" style="text-align: justify; color: #555555">
+                <div class="tab-content" style="text-align: center; color: #555555">
                     <div class="tab-pane fade in active" id="tab1rules">
                         <p>Use the dropdown menu to explore the rules and regulations!</p>
                     </div>
@@ -843,9 +592,9 @@
             </div>
         </div>
         <div class="row row-centered">
-                    <div class="col-xs-6 col-sm-3 portfolio-item" style="text-align: center; padding: 5px">
+                    <div class="col-xs-12 col-sm-3 portfolio-item" style="text-align: center; padding: 5px">
                         <i class="fa fa-users fa-3x" aria-hidden="true" style="text-align: center"></i>
-                        <h5 style="font-style: italic">Likely societal (social, environmental or economic) impact</h5>
+                        <h5 style="font-style: italic">Social Impact</h5>
                             <p style="font-size: 16px">Projects will be judged on the extent to which they can demonstrate how
                                 they would have a concrete social impact in relation to the challenge problem. Projects will
                                 need to:
@@ -859,9 +608,9 @@
                                 </ul>
                             </p>
                     </div>
-                    <div class="col-xs-6 col-sm-3 portfolio-item" style="text-align: center; padding: 5px">
+                    <div class="col-xs-12 col-sm-3 portfolio-item" style="text-align: center; padding: 5px">
                         <i class="fa fa-usd fa-3x" aria-hidden="true" style="text-align: center"></i>
-                        <h5 style="font-style: italic">Potential market for, and sustainability of, an ongoing business</h5>
+                        <h5 style="font-style: italic">Market & Sustainability</h5>
                             <p style="font-size: 16px">Projects will be judged on how well they have tailored their product or
                                 service to a potential market and how well they have understood the opportunities in this market
                                 (whether consumer market or government as the target customer).</p>
@@ -870,9 +619,9 @@
                                 considered. Whether the solutions are easy to understand and affordable for consumers will also
                                 be taken into consideration.</p>
                     </div>
-                    <div class="col-xs-6 col-sm-3 portfolio-item" style="text-align: center; padding: 5px">
+                    <div class="col-xs-12 col-sm-3 portfolio-item" style="text-align: center; padding: 5px">
                         <i class="fa fa-bar-chart fa-3x" aria-hidden="true" style="text-align: center"></i>
-                        <h5 style="font-style: italic">Extent of use of open data and incorporation into the project</h5>
+                        <h5 style="font-style: italic">Use of Open Data</h5>
                             <p style="font-size: 16px">Projects will be judged on their use of open data, in particular:
                                 <ul style="font-size: 16px">
                                     <li style="text-align: left">the extent to which it is incorporated into their product / service; and</li>
@@ -886,7 +635,7 @@
                             <p style="font-size: 16px">You must also include at least one source of city, provincial or national
                                 government open data in your submission.</p>
                     </div>
-                    <div class="col-xs-6 col-sm-3 portfolio-item" style="text-align: center; padding: 5px">
+                    <div class="col-xs-12 col-sm-3 portfolio-item" style="text-align: center; padding: 5px">
                         <i class="fa fa-star fa-3x" aria-hidden="true" style="text-align: center"></i>
                         <h5 style="font-style: italic">Innovation</h5>
                             <p style="font-size: 16px">Projects will be judged on whether they offer something novel in terms of
@@ -899,21 +648,123 @@
 </section>
 <!-- Tools Section -->
 <section class="success" id="tools">
-    <br class="container">
+    <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>TOOLS AND DATA PORTALS</h2>
                 <hr class="trophy-primary">
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-4 text-" style="text-align: center">
+                <p>If you’re interested in city open data and considering participating in the Responsive Cities
+                    challenge these local and international examples may inspire you:</p>
+                {#
+                <ul style="font-size: 19px">#}
+                    {#
+                    <li class="col-lg-4 text-">Medicine pricing: <a href="https://mpr.code4sa.org">https://mpr.code4sa.org</a>
+                    </li>
+                    #}
+                    {#
+                    <li class="col-lg-4 text-">Informal settlement map: <a href=" http://ismaps.org.za/desktop.html">
+                        http://ismaps.org.za/desktop.html</a></li>
+                    #}
+                    {#
+                    <li class="col-lg-4 text-">Wazimap: <a href="https://wazimap.co.za">https://wazimap.co.za</a></li>
+                    #}
+                    {#
+                    <li class="col-lg-4 text-">Mamelodi mappers: <a
+                            href="http://mamelodimappers.wixsite.com/alaska-fire-project">http://mamelodimappers.wixsite.com/alaska-fire-project</a>
+                    </li>
+                    #}
+                    {#
+                    <li class="col-lg-4 text-">GoMetro: <a href="http://gometroapp.com/?transit+index">http://gometroapp.com/?transit+index</a>
+                    </li>
+                    #}
+                    {#
+                    <li class="col-lg-4 text-">Phikaya Smart Streets: <a
+                            href="http://opendatachallenges.org/get-to-know-the-jobs-open-data-challenge-finalists-pikhaya-smart-streets/">http://opendatachallenges.org/get-to-know-the-jobs-open-data-challenge-finalists-pikhaya-smart-streets/</a>
+                    </li>
+                    #}
+                    {#
+                    <li class="col-lg-4 text-">MoveMaker: <a
+                            href="http://movemakerapp.co.uk">http://movemakerapp.co.uk</a></li>
+                    #}
+                    {#
+                    <li class="col-lg-4 text-">Bus Start: <a
+                            href="http://opendatachallenges.org/get-to-know-the-jobs-open-data-challenge-finalists-bus-start/">http://opendatachallenges.org/get-to-know-the-jobs-open-data-challenge-finalists-bus-start/</a>
+                    </li>
+                    #}
+                    {#
+                </ul>
+                #}
+
+                <div class="row row-centered">
+                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
+                        <a href="https://mpr.code4sa.org" target="_blank" class="portfolio-link" data-toggle="modal">Medicine Price Registry
+                            <img src="/static/img/MPR.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
+                        <a href="http://ismaps.org.za/desktop.html" target="_blank" class="portfolio-link"
+                           data-toggle="modal">ISMaps
+                            <img src="/static/img/ISMAPS.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
+                        <a href="https://wazimap.co.za" target="_blank" class="portfolio-link" data-toggle="modal">Wazimap
+                            <img src="/static/img/WAZIMAP.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
+                        <a href="http://mamelodimappers.wixsite.com/alaska-fire-project" target="_blank"
+                           class="portfolio-link" data-toggle="modal">Mamelodi Mappers
+                            <img src="/static/img/MAMELODI.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
+                        <a href="http://gometroapp.com/?transit+index" target="_blank" class="portfolio-link"
+                           data-toggle="modal">GoMetro
+                            <img src="/static/img/GOMETRO.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
+                        <a href="http://opendatachallenges.org/get-to-know-the-jobs-open-data-challenge-finalists-pikhaya-smart-streets/"
+                           target="_blank" class="portfolio-link" data-toggle="modal">Pikhaya
+                            <img src="/static/img/PIKHAYA.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
+                        <a href="http://movemakerapp.co.uk" target="_blank" class="portfolio-link" data-toggle="modal">MoveMaker
+                            <img src="/static/img/MOVEMAKER.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-xs-4 col-sm-3 portfolio-item col-centered">
+                        <a href="http://opendatachallenges.org/get-to-know-the-jobs-open-data-challenge-finalists-bus-start/"
+                           target="_blank" class="portfolio-link" data-toggle="modal">Bus Start
+                            <img src="/static/img/BUSSTART.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br>
         <div class="text-center">
-            <h3 >Tools</h3>
+            <h3 >Other Tools</h3>
             <p>
                 <a style="font-style: normal" href="https://hackpad.com/Tools-for-the-Open-Data-Challenge-Series-aCK0hgumz00" target="_blank">
                     The ODI's Hackpad of open data tools</a>
             </p>
         </div>
-        <br></br>
+        <br>
         <div class="text-center">
             <h3>Data Portals</h3>
             <p style="font-style: normal">
@@ -953,10 +804,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 text-" style="text-align: justify">
-                <p>The <a href="http://www.ogp.gov.za/" target="_blank">Open Government Partnership South Africa (OGP
-                    SA)</a>, <a href="http://theodi.org/" target="_blank">Open Data Institute (ODI)</a> and a number of
-                    local partners are running an open data challenge on the theme of Responsive Cities.</p>
+            <div class="col-lg-4 text-" style="text-align: center">
+                <p>Cities across the world are opening up public data and getting entrepreneurs and researchers to help solve social and economic challenges. This helps cities be more responsive to change and increasing demand for services. The inaugural Responsive Cities Challenge is implemented by a network of South African and international partners.</p>
                 <br>
                 <br>
             </div>
@@ -985,10 +834,9 @@
                 </ul>
             </div>
             <div class="panel-body">
-                <div class="tab-content" style="text-align: justify">
+                <div class="tab-content" style="text-align: center">
                     <div class="tab-pane fade in active" id="tab1partner">
-                        <p>Partners include OGPSA, Open Data Institute, OD4D, Code for South Africa, The Innovation Hub, Open Data Durban, Geekulcha, Centre for Public Service and
-                                Administration, Codebridge Connect and Department of Public Service and
+                        <p>Partners include OGP SA, Open Data Institute, Open Data for Development, Code for South Africa, The Innovation Hub, Open Data Durban, Geekulcha, Centre for Public Sector Innovation, Codebridge Connect and Department of Public Service and
                                 Administration. Select from the list of key partners to learn more about them!</p>
                     </div>
                     <div class="tab-pane fade" id="tab2partner">
@@ -1098,7 +946,7 @@
     <div class="footer-above">
         <div class="container">
             <div class="row">
-                <h4>Queries about the challenge? Email us at <a href="mailto:info@responsivecities.org.za">info@responsivecities.org.za</a></h4>
+                <h5>Queries about the challenge? Email us at <a href="mailto:info@responsivecities.org.za">info@responsivecities.org.za</a></h5>
             </div>
             <div class="row">
                 <div class="footer-col col-md-4">
