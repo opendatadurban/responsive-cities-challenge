@@ -296,10 +296,10 @@
                         <option>Sol Plaatje & Dawid Kruiper</option>
                         <option>Cape Town</option>
                     </select>
-                    <label for="desc">Describe Your Project Briefly:</label>
-                    <textarea rows="6" class="form-control" id="desc" required name="desc"></textarea>
-                    <label for="prob">What is the main problem or opportunity you are addressing in the city? (MAX 200 words)</label>
-                    <textarea rows="6" class="form-control" id="prob" required name="prob"></textarea>
+                    <label for="desc">Describe Your Project Briefly: [MAX 1000 characters]</label>
+                    <textarea maxlength="1000" rows="6" class="form-control" id="desc" required name="desc"></textarea>
+                    <label for="prob">What is the main problem or opportunity you are addressing in the city? [MAX 1000 characters]</label>
+                    <textarea maxlength="1000" rows="6" class="form-control" id="prob" required name="prob"></textarea>
                     <label for="impact">What area of the city or resident life are you impacting?</label>
                     <select class="form-control" id="impact" name="impact">
                         <option>Choose area...</option>
@@ -324,8 +324,8 @@
                         <option>Near commercial</option>
                         <option>Commercial</option>
                     </select>
-                    <label for="simil">What are similar apps / analysis and why is yours different?</label>
-                    <textarea rows="6" class="form-control" id="simil" required name="simil"></textarea>
+                    <label for="simil">What are similar apps / analysis and why is yours different? [MAX 1000 characters]</label>
+                    <textarea maxlength="1000" rows="6" class="form-control" id="simil" required name="simil"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="users">Who do you think will be the main users of your product or service?</label>
@@ -356,16 +356,17 @@
                         </label>
                     </div>
                     <br>
-                    <label for="extra">Please describe, briefly, the resources you will need:</label>
-                    <textarea rows="6" class="form-control" id="extra" required name="extra"></textarea>
+                    <label for="extra">Please describe, briefly, the resources you will need: [MAX 1000 characters]</label>
+                    <textarea maxlength="1000" rows="6" class="form-control" id="extra" required name="extra"></textarea>
                     <label for="money">How do you plan to support the idea financially or make money from this product or
-                        service?</label>
-                    <textarea rows="6" class="form-control" id="money" required name="money"></textarea>
+                        service? [MAX 1000 characters]</label>
+                    <textarea maxlength="1000" rows="6" class="form-control" id="money" required name="money"></textarea>
                     <label for="edu">What education and/ or work experience do you and any members of your team
-                        have?</label>
-                    <textarea rows="6" class="form-control" id="edu" required name="edu"></textarea>
+                        have? [MAX 1000 characters]</label>
+                    <textarea maxlength="1000" rows="6" class="form-control" id="edu" required name="edu"></textarea>
+                    <label for="upload">Add link to image, doc or project folder [optional]</label>
+                    <input type="text" id="upload" name="upload" class="form-control">
                 </div>
-                <input hidden type="text" id="upload" name="upload">
                 <!--<label class="btn btn-primary" for="my-file-selector">-->
                     <!--<input id="my-file-selector" type="file" style="display:none;"-->
                            <!--onchange="$('#upload-file-info').html($(this).val());document.getElementById('upload').value=$(this).val();">-->
