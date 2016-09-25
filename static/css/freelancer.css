@@ -6,7 +6,8 @@
 
 body {
     overflow-x: hidden;
-    color: #363435
+    color: #363435;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p {
