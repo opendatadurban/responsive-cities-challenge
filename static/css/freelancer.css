@@ -558,12 +558,21 @@ li{
 }
 
 @media screen and (max-width: 768px) {
-    body { padding-top: 0px;
+    body {
+        padding-top: 0px;
     }
 
     .portfolio-item{
-    padding: 5px;
-}
+        padding: 5px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    p.small {
+        font-size: 12px;
+    }
 }
 
 .success{
