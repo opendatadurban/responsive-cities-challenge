@@ -6,7 +6,8 @@
 
 body {
     overflow-x: hidden;
-    color: #363435
+    color: #363435;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p {
@@ -33,7 +34,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -537,7 +538,7 @@ li{
 }
 
 .portfolio-item{
-    padding: 5px;
+    padding: 15px;
 }
 
 .navbar-toggle {
@@ -557,7 +558,21 @@ li{
 }
 
 @media screen and (max-width: 768px) {
-    body { padding-top: 0px; }
+    body {
+        padding-top: 0px;
+    }
+
+    .portfolio-item{
+        padding: 5px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    p.small {
+        font-size: 12px;
+    }
 }
 
 .success{
