@@ -24,6 +24,28 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+    <script>
+        function formSubmit() {
+            var fields = ["name", "sname", "email", "mobile", "orgaizationname", "town", "province", "title", "city", "description", "problem", "impact", "stage", "similar", "users", "extra", "money", "education"]
+            var fieldnames = ["Name", "Surname", "Email", "Phone", "Organization Name", "Town", "Province", "Project Title", "City", "Project Description", "Problem", "Impact", "Stage", "Similar", "Users", "Resources Needed", "Financial", "Education"]
+            var i, l = fields.length;
+            var fieldname;
+            var description;
+            for (i = 0; i < l; i++) {
+                fieldname = fields[i];
+                description = fieldnames[i];
+                if (document.forms["foo"][fieldname].value === "" || document.forms["foo"][fieldname].value === null) {
+                    alert(description + " field cannot be empty. Please complete ALL fields unless they are marked optional.");
+                    document.getElementById(fieldname).focus();
+                    return false;
+                }
+            }
+            document.getElementById("submitbutton").textContent = "Successfully submitted!";
+            return true;
+
+        } </script>
+
 </head>
 
 <body id="page-top" class="index">
@@ -249,7 +271,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 portfolio-item" style="text-align: center; padding: 5px">
                 <i class="fa fa-wrench fa-3x" aria-hidden="true" style="text-align: center"></i>
-                <h5 style="font-style: italic">4. Finalist Workshop | 24-28 Oct 2016</h5>
+                <h5 style="font-style: italic">4. FINALIST WORKSHOPS | 7-13 NOV 2016</h5>
                 <p style="font-size: 16px">All finalists will be eligible to join any one of three 2-day finalist
                     workshops to be held at a host city in the following regions:
                     <ul style="font-size: 16px; list-style: none;">
@@ -322,31 +344,31 @@
         </div>
         <br>
         <div class="center-block" style="max-width: 800px">
-            <form id="foo">
+            <form name="foo" id="foo" onsubmit="formSubmit()" >
                 <div class="form-group">
                     <p>Personal Information</p>
                     <label for="name">Name:</label>
-                    <input type="name" class="form-control" id="name" name="name" required>
+                    <input type="name" class="form-control" id="name" name="name" >
                     <label for="sname">Surname:</label>
-                    <input type="name" class="form-control" id="sname" name="sname" required>
+                    <input type="name" class="form-control" id="sname" name="sname" >
                     <label for="email">Email address:</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
+                    <input type="email" class="form-control" id="email" name="email" >
                     <label for="mobile">Mobile:</label>
-                    <input type="tel" class="form-control" id="mobile" name="mobile" required>
-                    <label for="oname">Organisation Name / Website:</label>
-                    <input type="text" class="form-control" id="oname" name="oname">
+                    <input type="tel" class="form-control" id="mobile" name="mobile" >
+                    <label for="orgaizationname">Organisation Name / Website:</label>
+                    <input type="text" class="form-control" id="orgaizationname" name="orgaizationname">
                     <label for="town">Town / City:</label>
-                    <input type="text" class="form-control" id="town" required name="town">
+                    <input type="text" class="form-control" id="town" >
                     <label for="province">Province:</label>
-                    <input type="text" class="form-control" id="province" required name="province">
+                    <input type="text" class="form-control" id="province" >
                 </div>
                 <div class="form-group">
                     <br>
                     <p>Project Overview</p>
                     <label for="title">Project Title / Name:</label>
-                    <input type="text" class="form-control" id="title" required name="title">
-                    <label for="impact">What city are you submitting for?</label>
-                    <select class="form-control" id="impact" name="impact">
+                    <input type="text" class="form-control" id="title" >
+                    <label for="city">What city are you submitting for?</label>
+                    <select class="form-control" id="city" name="city">
                         <option>Choose city...</option>
                         <option>Ekurhuleni</option>
                         <option>Tshwane</option>
@@ -354,10 +376,10 @@
                         <option>Northern Cape</option>
                         <option>Cape Town</option>
                     </select>
-                    <label for="desc">Describe Your Project Briefly: [MAX 1000 characters]</label>
-                    <textarea maxlength="1000" rows="6" class="form-control" id="desc" required name="desc"></textarea>
-                    <label for="prob">What is the main problem or opportunity you are addressing in the city? [MAX 1000 characters]</label>
-                    <textarea maxlength="1000" rows="6" class="form-control" id="prob" required name="prob"></textarea>
+                    <label for="description">Describe Your Project Briefly: [MAX 1000 characters]</label>
+                    <textarea maxlength="1000" rows="6" class="form-control" id="description"></textarea>
+                    <label for="problem">What is the main problem or opportunity you are addressing in the city? [MAX 1000 characters]</label>
+                    <textarea maxlength="1000" rows="6" class="form-control" id="problem" ></textarea>
                     <label for="impact">What area of the city or resident life are you impacting?</label>
                     <select class="form-control" id="impact" name="impact">
                         <option>Choose area...</option>
@@ -382,12 +404,12 @@
                         <option>Near commercial</option>
                         <option>Commercial</option>
                     </select>
-                    <label for="simil">What are similar apps / analysis and why is yours different? [MAX 1000 characters]</label>
-                    <textarea maxlength="1000" rows="6" class="form-control" id="simil" required name="simil"></textarea>
+                    <label for="similar">What are similar apps / analysis and why is yours different? [MAX 1000 characters]</label>
+                    <textarea maxlength="1000" rows="6" class="form-control" id="similar"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="users">Who do you think will be the main users of your product or service?</label>
-                    <textarea rows="6" class="form-control" id="users" required name="users"></textarea>
+                    <textarea rows="6" class="form-control" id="users" ></textarea>
                 </div>
                 <div class="form-group">
                     <br>
@@ -415,13 +437,13 @@
                     </div>
                     <br>
                     <label for="extra">Please describe, briefly, the resources you will need: [MAX 1000 characters]</label>
-                    <textarea maxlength="1000" rows="6" class="form-control" id="extra" required name="extra"></textarea>
+                    <textarea maxlength="1000" rows="6" class="form-control" id="extra" ></textarea>
                     <label for="money">How do you plan to support the idea financially or make money from this product or
                         service? [MAX 1000 characters]</label>
-                    <textarea maxlength="1000" rows="6" class="form-control" id="money" required name="money"></textarea>
-                    <label for="edu">What education and/ or work experience do you and any members of your team
+                    <textarea maxlength="1000" rows="6" class="form-control" id="money" ></textarea>
+                    <label for="education">What education and/ or work experience do you and any members of your team
                         have? [MAX 1000 characters]</label>
-                    <textarea maxlength="1000" rows="6" class="form-control" id="edu" required name="edu"></textarea>
+                    <textarea maxlength="1000" rows="6" class="form-control" id="education" ></textarea>
                     <label for="upload">Add link to image, doc or project folder [optional]</label>
                     <input type="text" id="upload" name="upload" class="form-control">
                 </div>
@@ -431,12 +453,11 @@
                     <!--Upload a file or zipped folder-->
                 <!--</label>-->
                 <!--<span class='label label-info' id="upload-file-info"></span>-->
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="submit" id="submitbutton" class="btn btn-default">Submit</button>
             </form>
         </div>
     </div>
 </section>
-
 <!-- Rules Section -->
 <section class="success" id="rules">
     <div class="container">
